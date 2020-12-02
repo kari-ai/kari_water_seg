@@ -59,7 +59,7 @@ ImageNet dataset으로 미리 학습된 모델을 다음 [[Link]](https://arxiv.
 ```
 
 - HRNetV2를 test 할 경우
-K5 Training dataset으로 학습된 모델을 다음 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)에서 다운로드 받은 뒤, 아래 위치에 저장합니다.
+K5 Training dataset으로 학습된 모델을 다음 [[Link]](https://drive.google.com/file/d/1gfLbsv9_6ZNtG7K3bmUf2r1Ig0CfQHIo/view?usp=sharing)에서 다운로드 받은 뒤, 아래 위치에 저장합니다.
 ```
 /kari_water_seg/HRNet/tools/output/K5/K5/models/best.pth
 ```
