@@ -32,7 +32,7 @@ conda env create -f water_seg.yml
 
 ## Dataset
 - Training dataset 
-다음 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)에서 Training dataset을 다운로드 받아 압축을 푼 다음, 아래 위치에 저장합니다.
+다음 [[Link]](https://drive.google.com/file/d/1Ugk6c_iadvlD-ycxNQlw9SHLDDqNAn1f/view?usp=sharing)에서 Training dataset을 다운로드 받아 압축을 푼 다음, 아래 위치에 저장합니다.
 ```
 /kari_water_seg/data/train_full/
 ```
