@@ -53,7 +53,7 @@ kari_water_seg/HRNet/experiments/K5/K5.yaml
 
 ## Pretrained model
 - HRNetV2를 새롭게 training을 할 경우
-ImageNet dataset으로 미리 학습된 모델을 다음 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)에서 다운로드 받은 뒤, 아래 위치에 저장합니다.
+ImageNet dataset으로 미리 학습된 모델을 다음 [[Link]](https://drive.google.com/file/d/1euYbOpJbs9di7W8IO4_hDizN_EoRWfAA/view?usp=sharing)에서 다운로드 받은 뒤, 아래 위치에 저장합니다.
 ```
 /kari_water_seg/HRNet/tools/pretrained_models/
 ```
