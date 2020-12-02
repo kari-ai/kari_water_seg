@@ -30,11 +30,13 @@ conda env create -f water_seg.yml
 ```
 
 ## Dataset
-- Training dataset 위치 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)
+- Training dataset 
+다음 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)에서 Training dataset을 다운로드 받아 압축을 푼 다음, 아래 위치에 저장. 
 ```
 /kari_water_seg/data/train_full/
 ```
-- Test dataset 위치 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)
+- Test dataset 
+다음 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)에서 Test dataset을 다운로드 받아 압축을 푼 다음, 아래 위치에 저장.
 ```
 /kari_water_seg/data/val_full/
 ```
@@ -44,13 +46,13 @@ conda env create -f water_seg.yml
 ![image](https://user-images.githubusercontent.com/26617052/100533991-f50be480-324d-11eb-8802-d470b8e5b012.png)
 ## Pretrained model
 - HRNetV2를 새롭게 training을 할 경우
-ImageNet dataset으로 미리 학습된 모델 위치 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)
+ImageNet dataset으로 미리 학습된 모델을 다음 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)에서 다운로드 받은 뒤, 아래 위치에 저장. 
 ```
 /kari_water_seg/HRNet/tools/pretrained_models/
 ```
 
 - HRNetV2를 test 할 경우
-K5 Training dataset으로 학습된 모델 위치 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)
+K5 Training dataset으로 학습된 모델을 다음 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)에서 다운로드 받은 뒤, 아래 위치에 저장. 
 ```
 /kari_water_seg/HRNet/tools/output/K5/K5/models/best.pth
 ```
