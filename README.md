@@ -39,6 +39,9 @@ conda env create -f water_seg.yml
 /kari_water_seg/data/val_full/
 ```
 
+
+# 딥러닝 알고리즘 1: HRNet(High Resolution Network) [[Paper]](https://arxiv.org/pdf/1908.07919.pdf), [[Code]](https://github.com/HRNet/HRNet-Semantic-Segmentation)
+![image](https://user-images.githubusercontent.com/26617052/100533991-f50be480-324d-11eb-8802-d470b8e5b012.png)
 ## Pretrained model
 - HRNetV2를 새롭게 training을 할 경우
 ImageNet dataset으로 미리 학습된 모델 위치 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)
@@ -52,8 +55,6 @@ K5 Training dataset으로 학습된 모델 위치 [[Link]](https://arxiv.org/pdf
 /kari_water_seg/HRNet/tools/output/K5/K5/models/best.pth
 ```
 
-# 딥러닝 알고리즘 1: HRNet(High Resolution Network) [[Paper]](https://arxiv.org/pdf/1908.07919.pdf), [[Code]](https://github.com/HRNet/HRNet-Semantic-Segmentation)
-![image](https://user-images.githubusercontent.com/26617052/100533991-f50be480-324d-11eb-8802-d470b8e5b012.png)
 ## Training code 실행
 ```
 cd /kari_water_seg/HRNet/tools/
