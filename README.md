@@ -16,11 +16,11 @@ git clone https://github.com/kari-ai/kari_water_seg.git
 - Python 3.7.7
 - Tensorflow 1.14.0
 - PyTorch 0.4.1
-- Keras 2.3.
+- Keras 2.3
 
 ## Dependencies 설치
 ```
-cd /SAR-water-segmentation/HRNet/
+cd /kari_water_seg/HRNet/
 pip install –r requirements.txt
 ```
 
@@ -32,36 +32,36 @@ conda env create -f water_seg.yml
 ## Dataset
 - Training dataset 위치 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)
 ```
-/SAR-water-segmentation/data/train_full/
+/kari_water_seg/data/train_full/
 ```
 - Test dataset 위치 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)
 ```
-/SAR-water-segmentation/data/val_full/
+/kari_water_seg/data/val_full/
 ```
 
 ## Pretrained model
 - HRNetV2를 새롭게 training을 할 경우
 ImageNet dataset으로 미리 학습된 모델 위치 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)
 ```
-/SAR-water-segmentation/HRNet/tools/pretrained_models/
+/kari_water_seg/HRNet/tools/pretrained_models/
 ```
 
 - HRNetV2를 test 할 경우
 K5 Training dataset으로 학습된 모델 위치 [[Link]](https://arxiv.org/pdf/1505.04597.pdf)
 ```
-/SAR-water-segmentation/HRNet/tools/output/K5/K5/models/best.pth
+/kari_water_seg/HRNet/tools/output/K5/K5/models/best.pth
 ```
 
 # 딥러닝 알고리즘 1: HRNet(High Resolution Network) [[Paper]](https://arxiv.org/pdf/1908.07919.pdf), [[Code]](https://github.com/HRNet/HRNet-Semantic-Segmentation)
 ![image](https://user-images.githubusercontent.com/26617052/100533991-f50be480-324d-11eb-8802-d470b8e5b012.png)
 ## Training code 실행
 ```
-cd /SAR-water-segmentation/HRNet/tools/
+cd /kari_water_seg/HRNet/tools/
 python main_HRNet_train.py
 ```
 ## Test code 실행
 ```
-cd /SAR-water-segmentation/HRNet/tools/
+cd /kari_water_seg/HRNet/tools/
 python main_HRNet.py
 ```
 
